@@ -425,7 +425,7 @@ footer a {
 
 @media screen and (max-width: 500px) {
   nav img {
-    width: 150px;
+    width: 100px;
   }
   
   nav ul li {
