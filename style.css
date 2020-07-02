@@ -430,6 +430,10 @@ footer a {
   
   nav ul li {
   margin-right: 0;
+  margin-left: 10px;
+  }
+  
+  nav ul li:first-child {
   margin-left: 25px;
   }
   
