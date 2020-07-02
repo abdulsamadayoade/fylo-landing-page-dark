@@ -430,6 +430,10 @@ footer a {
   
   nav ul li {
   margin-right: 0;
-  margin-left: 15px;
+  margin-left: 25px;
+  }
+  
+  header p {
+  width: 100%;
   }
 }
