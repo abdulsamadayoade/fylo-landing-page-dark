@@ -126,10 +126,6 @@ nav ul li {
   margin-right: 25px;
 }
 
-.illustration {
-  width: 100%;
-}
-
 .grids {
   display: grid;
   grid-template-areas:
@@ -420,5 +416,11 @@ footer a {
     width: 40%;
     text-align: center;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav ul li {
+  margin-right: 15px;
   }
 }
