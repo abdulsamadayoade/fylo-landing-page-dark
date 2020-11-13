@@ -118,16 +118,16 @@ nav {
   margin-bottom: 30px;
 }
 
+.illustration {
+  width: 100%;
+}
+
 .logo {
   height: 30px;
 }
 
 nav ul li {
   margin-right: 25px;
-}
-
-.illustration {
-  width: 100%;
 }
 
 .grids {
@@ -420,5 +420,24 @@ footer a {
     width: 40%;
     text-align: center;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav img {
+    width: 100px;
+  }
+  
+  nav ul li {
+  margin-right: 0;
+  margin-left: 10px;
+  }
+  
+  nav ul li:first-child {
+  margin-left: 25px;
+  }
+  
+  header p {
+  width: 100%;
   }
 }
